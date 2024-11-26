@@ -95,11 +95,9 @@ button {
   letter-spacing: 0.02em;
 }
 .team {
-  background: #f4f4fd;
-}
-.team-item {
   background: #ffffff;
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
