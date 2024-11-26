@@ -7,6 +7,12 @@ body {
 ul {
   list-style-type: none;
 }
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 a {
   text-decoration: none;
@@ -57,7 +63,7 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -68,14 +74,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
-.features-title {
+.hero-button:focus .features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -87,13 +94,20 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.team {
+  background: #f4f4fd;
+}
+.team-list {
+  background: #fff;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-name {
   font-weight: 500;
@@ -112,9 +126,10 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-project-name {
